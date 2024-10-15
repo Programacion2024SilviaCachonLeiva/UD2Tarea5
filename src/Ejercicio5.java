@@ -29,6 +29,7 @@ public class Ejercicio5 {
         System.out.println(num1); // num 1
         System.out.println(num2); // num 2
 
+        //Comprobar si llego al límite
         while (limite >= contador) {
 
             if (contador % 2 == 1) {
