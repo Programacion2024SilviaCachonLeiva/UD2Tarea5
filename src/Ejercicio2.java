@@ -30,7 +30,10 @@ public class Ejercicio2 {
             inicio++;
         } while (inicio <= num);
 
-        System.out.println("La suma de los pares desde el 1 hasta el " + num + " es " + par);
-        System.out.println("La suma de los impares desde el 1 hasta el " + num + " es " + impar);
+        //Si es negativo nada
+        if (num > -1) {
+            System.out.println("La suma de los pares desde el 1 hasta el " + num + " es " + par);
+            System.out.println("La suma de los impares desde el 1 hasta el " + num + " es " + impar);
+        }
     }
 }
