@@ -21,19 +21,18 @@ public class Ejercicio2 {
         num = sc.nextInt();
 
         //Sumas de pares e impares
-        do {
+        while (inicio <= num) {
             if (inicio % 2 == 0) {
                 par += inicio;
             } else if (inicio % 2 == 1) {
                 impar += inicio;
             }
             inicio++;
-        } while (inicio <= num);
-
-        //Si es negativo nada
-        if (num > -1) {
-            System.out.println("La suma de los pares desde el 1 hasta el " + num + " es " + par);
-            System.out.println("La suma de los impares desde el 1 hasta el " + num + " es " + impar);
         }
+
+
+        System.out.println("La suma de los pares desde el 1 hasta el " + num + " es " + par);
+        System.out.println("La suma de los impares desde el 1 hasta el " + num + " es " + impar);
+
     }
 }
