@@ -33,9 +33,15 @@ public class Ejercicio5 {
             }
         } while (num2 < num1);
 
+        //El límite tiene que ser mayor que 2
+        do {
+            System.out.println("Introduce el límite: ");
+            limite = sc.nextInt();
 
-        System.out.println("Introduce el límite: ");
-        limite = sc.nextInt();
+            if (limite <= 2) {
+                System.out.println("El límite tiene que ser mayor que 2.");
+            }
+        } while (limite <= 2);
 
         System.out.println(num1); // num 1
         System.out.println(num2); // num 2
