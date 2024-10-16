@@ -1,7 +1,10 @@
 import java.util.Scanner;
 
 /**
- * Ejercicio 5 -
+ * Ejercicio 5 - Sumas progresivas
+ *
+ * @author Silvia
+ * @version 1
  */
 
 public class Ejercicio5 {
