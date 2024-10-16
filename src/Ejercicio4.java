@@ -39,7 +39,7 @@ public class Ejercicio4 {
             num = sc.nextInt();
 
         }
-        System.out.println("Total de números introducidos (excluyendo el 0): " + validos);
+        System.out.println("Total de números introducidos (excluyendo el 0): " + (validos+fallidos));
         System.out.println("Total de números fallados: " + fallidos);
 
     }
