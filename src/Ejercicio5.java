@@ -23,8 +23,16 @@ public class Ejercicio5 {
 
         sc.nextLine(); //Limpiar buffer
 
-        System.out.println("Número 2: ");
-        num2 = sc.nextInt();
+        //Segundo número mayor que el primero
+        do {
+            System.out.println("Número 2: ");
+            num2 = sc.nextInt();
+
+            if (num2 < num1) {
+                System.out.println("El segundo número debe ser mayor que el primero.");
+            }
+        } while (num2 < num1);
+
 
         System.out.println("Introduce el límite: ");
         limite = sc.nextInt();
